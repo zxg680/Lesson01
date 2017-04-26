@@ -36,8 +36,8 @@ public class HrefMatch {
 
         }catch (IOException e){
             e.printStackTrace();
-        }catch (PatternSyntaxException e){
-            e.printStackTrace();
+        }catch (PatternSyntaxException ex){
+            ex.printStackTrace();
         }
     }
 }
